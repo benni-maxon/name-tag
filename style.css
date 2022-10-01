@@ -45,12 +45,12 @@ button {
 }
 
 .greeting {
-    padding: 10px;
-    font-size: 2.5em;
-    font-family: Garamond;
+    padding: 5px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     margin-top: 20px;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
 
 }
 
@@ -58,6 +58,8 @@ button {
     font-size: 1.5em;
     padding: 0px;
     margin-top: 0px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .name-display {
@@ -71,4 +73,8 @@ button {
 
 .black {
     color: black;
+}
+
+.colors {
+    background-color: ;
 }

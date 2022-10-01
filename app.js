@@ -14,3 +14,17 @@ updateBtn.addEventListener('click', () => {
     const nameInput = document.getElementById('nameInput');
     nameDisplay.textContent = nameInput.value;
 });
+
+const colorDisplay = document.getElementById('color-display');
+console.log(colorDisplay);
+
+colorDisplay.textContent = 'Coral';
+colorDisplay.classList.add('colors');
+
+const colorBtn = document.getElementById('colorBtn');
+colorBtn.addEventListener('click', () => {
+    console.log('I am clicking the color button');
+    const colorInput = document.getElementById('colorInput');
+    colorDisplay.textContent = colorInput.value;
+});
+console.log(colorBtn);
