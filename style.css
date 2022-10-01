@@ -44,7 +44,7 @@ button {
     padding-top: 10px;
 }
 
-h1 {
+.greeting {
     padding: 10px;
     font-size: 2.5em;
     font-family: Garamond;
