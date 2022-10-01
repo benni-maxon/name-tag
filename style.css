@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
-    background: rgb(224, 234, 247);
+    background: rgba(22, 49, 22, 0.499);
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -17,7 +17,7 @@ header {
     align-items: center;
     gap: 10px;
 
-    background-color: rgb(254, 251, 245);
+    background-color: rgba(71, 96, 71, 0.25);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
